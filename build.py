@@ -1,2 +1,4 @@
 def solution(dic1, dic2):
-    """Enter code here"""
+    dictionary = dict(dic1)
+    dictionary.update(**dic2)
+    return dictionary
