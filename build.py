@@ -1,4 +1,5 @@
-def solution(dic1, dic2):
-    dictionary = dict(dic1)
-    dictionary.update(**dic2)
-    return dictionary
+def solution(dic1,dic2):
+    dic = {}
+    for d in (dic1, dic2):
+        dic.update(d)
+    return dic
