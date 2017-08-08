@@ -1,2 +1,4 @@
 def solution(dic1, dic2):
-    """Enter code here"""
+    dic_join = dic1.copy()
+    dic_join.update(dic2)
+    return dic_join
