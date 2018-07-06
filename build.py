@@ -1,2 +1,5 @@
-def solution(dic1, dic2):
-    """Enter code here"""
+def solution(dic1,dic2):
+    dic = {}
+    for d in (dic1, dic2):
+        dic.update(d)
+    return dic
